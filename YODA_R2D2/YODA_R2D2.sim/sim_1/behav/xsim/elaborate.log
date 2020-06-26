@@ -1,0 +1,28 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 1cf33b382a7a4188be4bb385a30dcecd --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot main_behav xil_defaultlib.main xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'inA' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:56]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'pStatus' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:58]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'outA' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:59]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'addr' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:64]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 16 for port 'injectPacket' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:65]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'addr' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:71]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 16 for port 'injectPacket' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:72]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'addr' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:78]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 16 for port 'injectPacket' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:79]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'addr' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:85]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 16 for port 'injectPacket' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:86]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'addr' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:92]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 16 for port 'injectPacket' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:93]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.routereflector
+Compiling module xil_defaultlib.node
+Compiling module xil_defaultlib.main
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot main_behav

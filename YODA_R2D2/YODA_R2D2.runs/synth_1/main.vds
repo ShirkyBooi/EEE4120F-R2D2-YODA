@@ -1,0 +1,409 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Jun 26 19:58:07 2020
+# Process ID: 8056
+# Current directory: C:/Users/ethan/YODA_R2D2/YODA_R2D2.runs/synth_1
+# Command line: vivado.exe -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+# Log file: C:/Users/ethan/YODA_R2D2/YODA_R2D2.runs/synth_1/main.vds
+# Journal file: C:/Users/ethan/YODA_R2D2/YODA_R2D2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace
+Command: synth_design -top main -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19768 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 786.719 ; gain = 234.234
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'main' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:2]
+INFO: [Synth 8-6157] synthesizing module 'routereflector' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/routereflector.v:2]
+WARNING: [Synth 8-3848] Net outA in module/entity routereflector does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/routereflector.v:6]
+WARNING: [Synth 8-3848] Net outB in module/entity routereflector does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/routereflector.v:6]
+WARNING: [Synth 8-3848] Net outC in module/entity routereflector does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/routereflector.v:6]
+WARNING: [Synth 8-3848] Net outD in module/entity routereflector does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/routereflector.v:6]
+WARNING: [Synth 8-3848] Net outE in module/entity routereflector does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/routereflector.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'routereflector' (1#1) [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/routereflector.v:2]
+WARNING: [Synth 8-689] width (1) of port connection 'outA' does not match port width (2) of module 'routereflector' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:59]
+WARNING: [Synth 8-689] width (1) of port connection 'outB' does not match port width (2) of module 'routereflector' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:59]
+WARNING: [Synth 8-689] width (1) of port connection 'outC' does not match port width (2) of module 'routereflector' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:59]
+WARNING: [Synth 8-689] width (1) of port connection 'outD' does not match port width (2) of module 'routereflector' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:59]
+WARNING: [Synth 8-689] width (1) of port connection 'outE' does not match port width (2) of module 'routereflector' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:59]
+INFO: [Synth 8-6157] synthesizing module 'node' [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/node.v:2]
+WARNING: [Synth 8-6014] Unused sequential element DelRR_reg was removed.  [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/node.v:43]
+WARNING: [Synth 8-6014] Unused sequential element sendRR_reg was removed.  [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/node.v:63]
+WARNING: [Synth 8-6014] Unused sequential element startRR_reg was removed.  [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/node.v:31]
+WARNING: [Synth 8-6014] Unused sequential element countRR_reg was removed.  [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/node.v:33]
+WARNING: [Synth 8-6014] Unused sequential element RRPacketRx_reg[1] was removed.  [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/node.v:37]
+WARNING: [Synth 8-6014] Unused sequential element RRPacketRx_reg[0] was removed.  [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/node.v:37]
+WARNING: [Synth 8-6014] Unused sequential element sendCountN_reg was removed.  [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/node.v:57]
+WARNING: [Synth 8-6014] Unused sequential element startN_reg was removed.  [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/node.v:77]
+WARNING: [Synth 8-6014] Unused sequential element countN_reg was removed.  [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/node.v:79]
+WARNING: [Synth 8-6014] Unused sequential element NPacketRx_reg[1] was removed.  [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/node.v:71]
+WARNING: [Synth 8-6014] Unused sequential element NPacketRx_reg[0] was removed.  [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/node.v:71]
+INFO: [Synth 8-6155] done synthesizing module 'node' (2#1) [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/node.v:2]
+WARNING: [Synth 8-3848] Net inD in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:56]
+WARNING: [Synth 8-3848] Net delA in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:57]
+WARNING: [Synth 8-3848] Net delB in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:57]
+WARNING: [Synth 8-3848] Net delC in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:57]
+WARNING: [Synth 8-3848] Net delD in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:57]
+WARNING: [Synth 8-3848] Net delE in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:57]
+WARNING: [Synth 8-3848] Net delAB in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:63]
+WARNING: [Synth 8-3848] Net NoutB in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:63]
+WARNING: [Synth 8-3848] Net NoutA in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:70]
+WARNING: [Synth 8-3848] Net delCD in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:77]
+WARNING: [Synth 8-3848] Net NoutD in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:77]
+WARNING: [Synth 8-3848] Net NoutC in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:84]
+WARNING: [Synth 8-3848] Net addA in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:6]
+WARNING: [Synth 8-3848] Net addB in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:7]
+WARNING: [Synth 8-3848] Net addC in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:8]
+WARNING: [Synth 8-3848] Net addD in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:9]
+WARNING: [Synth 8-3848] Net addE in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:10]
+WARNING: [Synth 8-3848] Net injectA in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:12]
+WARNING: [Synth 8-3848] Net injectB in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:13]
+WARNING: [Synth 8-3848] Net injectC in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:14]
+WARNING: [Synth 8-3848] Net injectD in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:15]
+WARNING: [Synth 8-3848] Net injectE in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:16]
+WARNING: [Synth 8-3848] Net refresh in module/entity main does not have driver. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'main' (3#1) [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v:2]
+WARNING: [Synth 8-3331] design node has unconnected port delayRR
+WARNING: [Synth 8-3331] design node has unconnected port delayN
+WARNING: [Synth 8-3331] design node has unconnected port inRR
+WARNING: [Synth 8-3331] design node has unconnected port inN
+WARNING: [Synth 8-3331] design node has unconnected port addr[2]
+WARNING: [Synth 8-3331] design node has unconnected port addr[1]
+WARNING: [Synth 8-3331] design node has unconnected port addr[0]
+WARNING: [Synth 8-3331] design routereflector has unconnected port outA[1]
+WARNING: [Synth 8-3331] design routereflector has unconnected port outA[0]
+WARNING: [Synth 8-3331] design routereflector has unconnected port outB[1]
+WARNING: [Synth 8-3331] design routereflector has unconnected port outB[0]
+WARNING: [Synth 8-3331] design routereflector has unconnected port outC[1]
+WARNING: [Synth 8-3331] design routereflector has unconnected port outC[0]
+WARNING: [Synth 8-3331] design routereflector has unconnected port outD[1]
+WARNING: [Synth 8-3331] design routereflector has unconnected port outD[0]
+WARNING: [Synth 8-3331] design routereflector has unconnected port outE[1]
+WARNING: [Synth 8-3331] design routereflector has unconnected port outE[0]
+WARNING: [Synth 8-3331] design routereflector has unconnected port inA[1]
+WARNING: [Synth 8-3331] design routereflector has unconnected port inA[0]
+WARNING: [Synth 8-3331] design routereflector has unconnected port inB[1]
+WARNING: [Synth 8-3331] design routereflector has unconnected port inB[0]
+WARNING: [Synth 8-3331] design routereflector has unconnected port inC[1]
+WARNING: [Synth 8-3331] design routereflector has unconnected port inC[0]
+WARNING: [Synth 8-3331] design routereflector has unconnected port inD[1]
+WARNING: [Synth 8-3331] design routereflector has unconnected port inD[0]
+WARNING: [Synth 8-3331] design routereflector has unconnected port inE[1]
+WARNING: [Synth 8-3331] design routereflector has unconnected port inE[0]
+WARNING: [Synth 8-3331] design routereflector has unconnected port refresh[1]
+WARNING: [Synth 8-3331] design routereflector has unconnected port refresh[0]
+WARNING: [Synth 8-3331] design routereflector has unconnected port delA
+WARNING: [Synth 8-3331] design routereflector has unconnected port delB
+WARNING: [Synth 8-3331] design routereflector has unconnected port delC
+WARNING: [Synth 8-3331] design routereflector has unconnected port delD
+WARNING: [Synth 8-3331] design routereflector has unconnected port delE
+WARNING: [Synth 8-3331] design routereflector has unconnected port clk
+WARNING: [Synth 8-3331] design routereflector has unconnected port pStatus[2]
+WARNING: [Synth 8-3331] design routereflector has unconnected port pStatus[1]
+WARNING: [Synth 8-3331] design routereflector has unconnected port pStatus[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 859.879 ; gain = 307.395
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 859.879 ; gain = 307.395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 859.879 ; gain = 307.395
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 859.879 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'SW[0]'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[1]'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[2]'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[3]'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[4]'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[5]'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[6]'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[7]'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SW[8]'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[0]'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[1]'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED[2]'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'BTNL'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AUD_PWM'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:213]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:213]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'AUD_SD'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:214]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:214]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'UART_TXD'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:220]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:220]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PS2_CLK'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:226]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:226]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'PS2_DATA'. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:227]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc:227]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/constrs_1/new/constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 950.063 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 950.063 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 950.063 ; gain = 397.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 950.063 ; gain = 397.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 950.063 ; gain = 397.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 950.063 ; gain = 397.578
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      1 Bit       Adders := 5     
++---Registers : 
+	               16 Bit    Registers := 5     
+	                1 Bit    Registers := 15    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module node 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      1 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 950.063 ; gain = 397.578
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 950.063 ; gain = 397.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 950.063 ; gain = 397.578
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 950.063 ; gain = 397.578
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 951.297 ; gain = 398.813
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 951.297 ; gain = 398.813
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 951.297 ; gain = 398.813
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 951.297 ; gain = 398.813
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 951.297 ; gain = 398.813
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 951.297 ; gain = 398.813
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     0|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 951.297 ; gain = 398.813
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 951.297 ; gain = 308.629
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 951.297 ; gain = 398.813
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 951.297 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 967.328 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+16 Infos, 100 Warnings, 18 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 967.328 ; gain = 669.469
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 967.328 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ethan/YODA_R2D2/YODA_R2D2.runs/synth_1/main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main_utilization_synth.rpt -pb main_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 26 19:58:36 2020...

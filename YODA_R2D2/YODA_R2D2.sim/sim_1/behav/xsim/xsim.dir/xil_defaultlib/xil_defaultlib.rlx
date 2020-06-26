@@ -1,0 +1,8 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/ethan/YODA_R2D2/YODA_R2D2.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v,1593187229,verilog,,,,main,,,,,,,,
+C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/node.v,1593185762,verilog,,C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/routereflector.v,,node,,,,,,,,
+C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/routereflector.v,1593185798,verilog,,C:/Users/ethan/YODA_R2D2/YODA_R2D2.srcs/sources_1/new/main.v,,routereflector,,,,,,,,
